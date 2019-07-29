@@ -1,0 +1,36 @@
+.tank-level-body {
+  height: 115px;
+  width: 340px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 20px;
+}
+
+.title {
+  margin: 15px 0 0 15px;
+}
+
+.measurement {
+  grid-column: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 15px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.change {
+  font-size: 14px;
+  color: red;
+}
+
+.graph {
+  grid-column: 2;
+  display: flex;
+  align-items: flex-end;
+}
